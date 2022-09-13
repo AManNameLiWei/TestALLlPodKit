@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TestALLlPodKit_Example' do
+  pod 'TestALLlPodKit', :path => '../'
+
+  target 'TestALLlPodKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
