@@ -1,7 +1,7 @@
 {
   "name": "TestALLlPodKit",
   "version": "0.1.0",
-  "summary": "A short description of TestALLlPodKit.",
+  "summary": "this is a short description.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/AManNameLiWei",
   "license": {
@@ -12,11 +12,16 @@
     "liwei05": "liwei05@kanzhun.com"
   },
   "source": {
-    "git": " https://github.com/AManNameLiWei/TestALLlPodKit.git",
+    "git": "git@github.com:AManNameLiWei/TestALLlPodKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TestALLlPodKit/Classes/**/*"
+  "source_files": "TestALLlPodKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.0"
+    ]
+  }
 }
